@@ -5441,7 +5441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^18.2.25":
   version: 18.2.28
   resolution: "@types/react@npm:18.2.28"
   dependencies:
@@ -20265,7 +20265,7 @@ __metadata:
     "@redwoodjs/router": 6.3.2
     "@redwoodjs/vite": 6.3.2
     "@redwoodjs/web": 6.3.2
-    "@types/react": 18.2.14
+    "@types/react": ^18.2.25
     "@types/react-dom": 18.2.6
     prop-types: 15.8.1
     react: 18.2.0
