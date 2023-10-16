@@ -22,14 +22,11 @@ ul {
 li {
   display: inline-block;
   margin: 0 1rem 0 0 ;
-
   padding: 18px;
 }
 h1 > a {
   text-decoration: none;
-
   padding: 18px;
-
 }
 button, input, label, textarea {
   display: block;
@@ -66,10 +63,3 @@ input.error, textarea.error {
   display: inline;
 }
 
-
-
-
-p {
-  margin-left: 18px;
-  padding-left: 18px;
-}

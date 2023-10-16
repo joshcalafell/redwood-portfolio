@@ -19,10 +19,16 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
             <li>
               <Link to={routes.about()}>About</Link>
             </li>
+            <li>
+              <Link to={routes.experience()}>Experience</Link>
+            </li>
+            <li>
+              <Link to={routes.contact()}>Contact</Link>
+            </li>
           </ul>
         </nav>
       </header>
-      <main>{children}</main>
+      <main className="px-4 mx-4">{children}</main>
     </>
   )
 }
