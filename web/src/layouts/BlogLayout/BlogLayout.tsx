@@ -7,8 +7,8 @@ type BlogLayoutProps = {
 const BlogLayout = ({ children }: BlogLayoutProps) => {
   return (
     <>
-      <header className="bg-gray-900 text-white p-4 flex justify-between items-center">
-        <h1 className="text-white">
+      <header className="p-4 text-black flex justify-between items-center">
+        <h1>
           <Link to={routes.home()}>Redwood &nbsp; Blog</Link>
         </h1>
         <nav>
