@@ -52,7 +52,58 @@ input.error, textarea.error {
 .flex-between button {
   display: inline;
 }
+
 p {
   font-size: 22px;
   padding: 18px;
 }
+
+.text-white h1 * {
+  color: white !important;
+  font-family: "Monoton";
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: #f6f;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.5s ease-in-out;
+}
+a:active,
+a:hover {
+  color: #fff;
+  font-size: 1.2em;
+  transition: color 0.5s ease-in-out;
+}
+a {
+  text-transform: UPPERCASE;
+  font-family: 'Oswald';
+}
+body {
+  background: #000;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+ul li {
+  display: inline;
+  list-style: none;
+}
+canvas {
+  display: block;
+}
+footer {
+  text-align: center;
+  display: block;
+  clear: both;
+}
+footer a {
+  font-family: "Oswald";
+}
+
