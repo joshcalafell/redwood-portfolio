@@ -5,7 +5,7 @@ const ExperiencePage = () => {
     <>
       <MetaTags title="Experience" description="Experience page" />
 
-      <h1>ExperiencePage</h1>
+      <h1>Experience Page</h1>
     </>
   )
 }

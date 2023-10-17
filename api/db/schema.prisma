@@ -8,7 +8,7 @@ generator client {
   binaryTargets = "native"
 }
 
-model Post {
+model Blog {
   id        Int      @id @default(autoincrement())
   title     String
   body      String
@@ -16,10 +16,19 @@ model Post {
 }
 
 
-model Articles {
+model Article {
   id        Int      @id @default(autoincrement())
   title     String
   body      String
+  createdAt DateTime @default(now())
+}
+
+
+model Equipment {
+  id        Int      @id @default(autoincrement())
+  title     String
+  body      String
+  img       String
   createdAt DateTime @default(now())
 }
 
